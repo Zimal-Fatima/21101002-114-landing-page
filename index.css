@@ -1,0 +1,77 @@
+*{padding: 0; margin:0; box-sizing: border-box;}
+header{
+	width: 100%;
+	height: 100vh;
+	position: relative;
+}
+body{
+	min-height: 100vh;
+	background-image: url("pg.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.arrow{	
+  border: solid;
+  border-width:0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+}
+.logo{
+	  font-size: 2rem;
+  font-weight: 600;
+  font-family: "roboto",sans-serif;
+  color: indigo;
+}
+nav{
+	width: 100%;
+	height: 100px;
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 70px;
+}
+.menu a{
+	text-decoration: none;
+	color: indigo;
+	padding: 10px 20px;
+	font-size: 20px;
+	font-family: sans-serif;
+	transition: 0.4s
+}
+.menu a:last-child{
+	background:red;
+	color: white;
+	border-radius: 50px;
+}
+.menu a:hover{
+	background: #262626;
+	color: white;
+	border-radius: 8px;
+}
+.htext{
+	font-family: "roboto",sans-serif;
+}
+.htext h1{
+	font-size: 3em;
+	color: indigo;
+}
+.htext h2{
+	font-size: 2em;
+	line-height: 2em;
+	color: indigo;
+}
+.htext h3{
+	font-size: 2em;
+	line-height: 1em;
+	color: indigo;
+}
+.htext a{
+	text-decoration: none;
+	align-items: center;
+	color: white;
+	background:red;
+	padding: 10px 20px;
+	border-radius: 50px; 
+}
